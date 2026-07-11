@@ -7,7 +7,7 @@ This repository implements two classic Temporal Difference (TD) control algorith
 The Cliff Walking environment is a 4x12 gridworld where the agent starts at the bottom-left corner and must reach the goal at the bottom-right corner.
 
 <div align="center">
-  <img src="assets/SARSA.png" width="700" alt="Cliff Walking Gridworld"/>
+  <img src="assets/SARSA.jpg" width="700" alt="Cliff Walking Gridworld"/>
 </div>
 
 ### Grid Layout:
@@ -44,8 +44,8 @@ SARSA updates its action-value function based on the actual action ($a'$) taken 
 
 ```text
 ├── assets/
-│   └── SARSA.png    # Environment visualization
-│   └── Q_Learning.png    # Environment visualization
+│   └── SARSA.jpg    # Environment visualization
+│   └── Q_Learning.jpg    # Environment visualization
 ├── Q_Learning.ipynb            # Jupyter notebook for Q-Learning implementation
 ├── SARSA.ipynb                 # Jupyter notebook for SARSA implementation
 ├── generate_env_image.py       # Script to generate Gymnasium rendering
